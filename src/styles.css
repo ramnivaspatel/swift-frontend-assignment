@@ -1,0 +1,38 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  cursor: pointer;
+  background: #f2f2f2;
+}
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.pagination {
+  margin-top: 10px;
+}
+.pagination button {
+  margin: 0 4px;
+  padding: 4px 8px;
+}
+button.active {
+  background: #007bff;
+  color: white;
+}
